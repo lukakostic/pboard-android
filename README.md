@@ -1,2 +1,2 @@
-# pboard-android
-PBoard mobile app
+# Pirate board
+PirateBoard mobile app
