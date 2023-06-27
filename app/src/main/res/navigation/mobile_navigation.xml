@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_login">
+
+    <fragment
+        android:id="@+id/nav_login"
+        android:name="com.example.rmasapp.pages.LoginFormFragment"
+        android:label="Login"
+        tools:layout="@layout/fragment_login_form" />
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.rmasapp.pages.ProfileViewFragment"
+        android:label="My Profile"
+        tools:layout="@layout/fragment_profile_view" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.example.rmasapp.pages.MapsFragment"
+        android:label="Map"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_markers"
+        android:name="com.example.rmasapp.pages.MarkersFragment"
+        android:label="Markers"
+        tools:layout="@layout/fragment_markers" />
+
+    <fragment
+        android:id="@+id/nav_leaderboard"
+        android:name="com.example.rmasapp.pages.LeaderboardFragment"
+        android:label="Leaderboard"
+        tools:layout="@layout/fragment_leaderboard" />
+</navigation>
